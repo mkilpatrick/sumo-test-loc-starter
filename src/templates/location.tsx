@@ -170,6 +170,7 @@ const Location: Template<TemplateRenderProps> = ({
                 <div className="text-xl font-semibold">{`About ${name}`}</div>
                 <p className="pt-4">{description}</p>
               </div>
+              <div>{hours.monday.openIntervals.start}</div>
             </div>
           </div>
         </div>
